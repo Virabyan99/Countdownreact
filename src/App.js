@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { TicTacToe } from "./components/tic-tac-toe/tic-tac-toe";
+import Countdown from "./components/countdown/countdown";
 
 function App() {
 	return (
@@ -12,7 +12,8 @@ function App() {
 				<img src={logo} className='App-logo' alt='logo' />
 			</header>
 			<main>
-				<TicTacToe />
+				{/* <TicTacToe /> */}
+				<Countdown/>
 			</main>
 		</div>
 	);
